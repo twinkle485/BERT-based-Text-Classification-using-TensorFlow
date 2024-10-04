@@ -51,3 +51,9 @@ The model uses the `bert-base-uncased` variant of BERT, which is a version of BE
 - **Learning Rate Scheduler**: `ReduceLROnPlateau` reduces the learning rate when the validation loss plateaus.
 - **Early Stopping**: Stops the training process if the validation loss does not improve for 3 consecutive epochs.
 - **Model Checkpoint**: Saves the best model based on validation loss during training.
+
+### References
+- **BERT Pretrained Model**: BERT on Hugging Face
+- **SetFit Emotion Dataset**: SetFit/emotion
+- **TensorFlow Documentation**: TensorFlow
+- **Hugging Face Transformers**: Transformers
